@@ -16,7 +16,7 @@ public class MenuScreenController : MonoBehaviour
     public void StartGame()
 	{
         PlayerPrefs.SetString("playerName", playerNameText.text);
-        Debug.Log(PlayerPrefs.GetString("playerName"));
+        //Debug.Log(PlayerPrefs.GetString("playerName"));
         UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 }
